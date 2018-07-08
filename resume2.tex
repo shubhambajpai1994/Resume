@@ -1,0 +1,190 @@
+
+%-------------------------
+% Resume in Latex
+% Author : Deepanjan Kowar
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://www.linkedin.com/in/bajpai-shubham/}{\huge Shubham Bajpai}}\\
+  \href{https://www.linkedin.com/in/bajpai-shubham/}{www.linkedin.com/in/bajpai-shubham/} & Email : \href{mailto:shubhambajpai1994@gmail.com}{shubhambajpai1994@gmail.com}\\
+  \href{https://github.com/shubhambajpai1994}{www.github.com/shubhambajpai1994} & Mobile : +91-8109217716 \\
+\end{tabular*}
+
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {International Institute of Information Technology, Bangalore}{}
+      {Master of Technology in Information Technology | CGPA: 3.28/4}{July 2017 -- July 2019}
+    \resumeSubheading
+      {Shri Shankaracharya Group Of Institutions, Bhilai}{}
+      {Bachelor of Engineering in Computer Science and Engineering | CGPA: 8.09/10}{Aug. 2013 -- July 2017}
+    \resumeSubheading
+      {Holy Cross Sen. Sec. School, Kapa, Raipur}{}
+      {12\textsuperscript{th} Grade | 72.2\%}{2012}
+    \resumeSubheading
+      {Holy Cross Sen. Sec. School, Kapa, Raipur}{}
+      {10\textsuperscript{}{th} Grade | CGPA: 8.2/10}{2010}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {ClearTax}{Bangalore, India}
+      {Software Engineering Intern}{May 2018 - Present}
+      \resumeItemListStart
+        \resumeItem{MarketPlace}
+          {Working as a back-end engineer in the MarketPlace team of ClearTax. Contributing to various feature additions and bug fixes.}
+        \resumeItem{Fulfillment-Backend}
+          {My work included developing new features like credit note service,  leads services,  adding reminder feature for follow up, report cron jobs service and many more along-with handling on call issues related to orders in marketplace.}
+      \resumeItemListEnd
+      
+  \resumeSubHeadingListEnd
+
+
+%-----------SKILLS------------------
+\section{Skills and Abilities}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Programming Languages}
+      { C++, Java, Python}
+      \resumeSubItem{Query Languages}
+      { SQL, CQL, HQL}
+    \resumeSubItem{Tools, Libraries and Frameworks}
+      {Net Beans, Eclipse, Gurobi, PyCharm, Scikit, Intellij IDEA, Drop Wizard,Hibernate, Maven, GurobiPy}
+    \resumeSubItem{Areas of Interest}
+      {Algorithms, Optimization, Machine Learning, Geographic Information Systems}
+  \resumeSubHeadingListEnd
+  
+  
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Indian Railways Route Optimization and Scheduling }
+      {The objective of the project was to find a conflict free schedule for a set of trains in a given railway network satisfying some constraints. We deal with large scale railway network at the scale of Indian Railways. Indian Railways poses a computational challenge for finding an optimal schedule. We developed algorithm with capability to deal with a fraction of the overall requirement with the improvement of a block section.}
+    \resumeSubItem{User Engagement}
+      {Developed a model for classification of users based on their visiting pattern and activities on the platform and send relevant nudges to boost user engagement on platform. Designed a custom classification algorithm with the improvement over other standard algorithms.}
+    \resumeSubItem{Programming Language Skroth and Interpreter Valyria}
+      { Developed an experimental programming language inspired by ”Game Of Thrones”and the syntax derived from quotes and phrases of the book series ”The Song of Ice and Fire”.}
+    \resumeSubItem{Crime Based Grading and Mapping Safe Zones}
+      {Developed a GIS based application capable of finding safe zones geographically based on previous crime data of a region and plotting a safety level map so as to classify unsafe zones and safe zones in a city.}
+  \resumeSubHeadingListEnd
+
+
+%----------ACHIEVEMENTS--------------
+\section{Achievements}
+\resumeSubHeadingListStart
+    \itemsep-0.25em 
+    \item Secured \textbf{AIR 36} All India Rank in \textbf{JEST 2017}.
+    \item Secured \textbf{AIR 1087} in \textbf{GATE 2018}.
+    \item Secured \textbf{AIR 937} in \textbf{GATE 2017}.
+    \item Secured \textbf{AIR 753} in \textbf{CodeVita 2016}.
+    \item Hackerrank rank 2692\textsuperscript{*} and \textbf{96 percentile O(logn)} in algorithms.
+    \item Event Head\emph{(Technical)} of techno-cultural fest Samvid 2016.
+    \item Secured 1st Rank n zonal Robotics Competition 2013 held in association with IISC Bengaluru.
+    \item Secured \textbf{517} in \textbf{CGPET 2013}.
+    \item Secured \textbf{1010} in \textbf{CGPET 2012}.
+    
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+%\section{Programming Skills}
+%  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
+%      \hfill
+%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+%    }
+%  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
+Press h to open a hovercard with more details.
